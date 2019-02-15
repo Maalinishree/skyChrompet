@@ -7,21 +7,28 @@ ul {
 }
 
 li {
-  float: left;
+  float:right;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 30px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  color: #fd821e;
 }
 .style{
   font-family: Georgia Bold Italic;
   color: #ff6600;
+}
+.navbar{
+  position: fixed;
+  width:100%;
+}
+img{
+width:100%;
 }
